@@ -2,9 +2,23 @@ body, html {
     background: #ECEDEF;
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
-h1{
+.bg {
+    background-image: url("9FVp.gif");
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    
+   }
+
+.container>h1{
+    color: #ffffff;
+}
+
+.display>h1{
     display: inline-block;
     width:50px;
 
@@ -33,7 +47,7 @@ h1{
     border-bottom-left-radius: 14px;
     border-top-right-radius: 14px;
     border-bottom-right-radius: 14px;
-    margin-top: 6em;
+    margin-top: 3em;
     margin-left: 4em;
     margin-right: 2em;
     margin-bottom: 1em;
